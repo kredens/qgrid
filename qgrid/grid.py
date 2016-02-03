@@ -210,6 +210,8 @@ def show_grid(data_frame, remote_js=None, precision=None, grid_options=None,
         display(widgets.HBox((add_row, rem_row, export)), grid)
     else:
         display(grid)
+    
+    return grid
 
 
 class QGridWidget(widgets.DOMWidget):
